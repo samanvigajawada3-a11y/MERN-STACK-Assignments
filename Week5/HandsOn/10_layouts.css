@@ -1,0 +1,18 @@
+.parent{
+    display : flex;/* This line makes all the cards to place in the same line. */
+    justify-content: center;
+    gap : 100px;
+    padding : 40px;
+}
+.child{
+    width : 250px;
+    padding : 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px grey;
+}
+img{
+    width : 100px;
+    height : 100px;
+    border-radius: 50%;
+}

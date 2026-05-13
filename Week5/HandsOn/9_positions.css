@@ -1,0 +1,16 @@
+
+.parent{
+    margin : 100px 400px;
+    width : 700px;
+    height : 600px;
+    background-color:#d4138d;
+    box-shadow: 5px 15px 20px #d4138d;
+    position: relative;
+}
+.child{
+    width : 100px;
+    height : 100px;
+    position: absolute;
+    top : -25px;
+    right : -25px;
+}

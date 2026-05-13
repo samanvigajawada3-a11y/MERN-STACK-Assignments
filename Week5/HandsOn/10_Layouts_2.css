@@ -1,0 +1,67 @@
+/* Navigation Bar */
+nav{
+    display : flex;
+    justify-content: space-around;
+    background-color: rgb(255, 232, 236);
+    padding : 10px;
+}
+nav ul{
+    width : 200px;
+    display : flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+nav form,h2{
+    padding : 10px;
+}
+
+/* Main */
+article{
+    color : white;
+    background-color: #dd4376;
+    margin-left : 100px 200px;
+}
+article h1,h2{
+    margin-top: 0px;
+    text-align: center;
+}
+article h4{
+    margin-left: 100px;
+}
+main article section p{
+    width : 300px;
+}
+.cards{
+    display: flex;
+}
+section button{
+    background-color: palevioletred;
+    color : white;
+    border: none;
+}
+.button{
+    text-align: center;
+}
+/* Footer */
+footer{
+    display : flex;
+    background-color: rgb(255, 232, 236);
+}
+section p{
+    width : 400px;
+}
+section{
+    margin: 10px 20px;
+    padding: 0px 10px;
+    /* text-align: center; */
+}
+/* Responsiveness */
+@media screen and (max-width : 600px){
+    .cards{
+        flex-direction: column;
+    }
+    section{
+        padding: 5px 0px;
+    }
+
+}

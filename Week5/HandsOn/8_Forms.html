@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <div>
+        <label for="username">Username</label>
+        <input type="text" placeholder="Enter your username" name="username" id="username" required>
+    </div>
+    <div>
+        <label for="password">Passwrod</label>
+        <input type="password" placeholder="Enter your password" name="password" id="password" minlength="5" maxlength="12" required>
+    </div>
+    <!-- Placeholder, autocomplete, required, minlength, maxlength -->
+     <div>
+        <label for="mail">Mail</label>
+        <input type="text" placeholder="Enter your mail" name="mail" id="mail" autocomplete="off" required>
+        <!-- <input type="text" name="mail" id="mail" placeholder="Enter your mail" autocomplete="off" required minlength="4" maxlength="10"> -->
+    </div>
+    <button type="submit">Login</button>
+</body>
+</html>
