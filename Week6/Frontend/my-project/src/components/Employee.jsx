@@ -5,7 +5,7 @@ function Employee() {
   const {state} = useLocation()
 
   return (
-    <div className="mt-50 mx-auto w-150">
+    <div className="mt-30 mx-auto w-150">
       <h1 className="text-5xl pl-30">Employee Details</h1>
       <div className="bg-gray-200 text-3xl p-20 rounded-2xl mt-5">
         <p>Name : {state.name}</p>
